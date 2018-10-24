@@ -5,10 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Homework</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
 </head>
 
 <body>
+  <!--Header-->
+  <div class="container-fluid mt-5 mb-5">
+    <h1 class="text-center">Two grid tricks</h1>
+    <h3 class="text-center">Wrapper <strong>around</strong> .container or cards <strong>inside</strong> .col
+    </h3>
+  </div>
+  <!--First (Blue) Section-->
+  <div class="container-fluid bg-primary">
+    <h3 class="text-center headH3"> Wrapper <strong>around</strong> .container</h3>
+    <div class="row">
+      <div class="col-sm-5 offset-1">
+        <h3 class="text-center mt-2">One</h3>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tenetur odit, esse
+          numquam est optio, fugiat veniam consequuntur quo veritatis tempora inventore. Libero, ut. Minima, tempore.
+          Aliquam, ea. A, optio!</p>
+      </div>
+      <div class="col-sm-5">
+        <h3 class="text-center mt-2">Two</h3>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sapiente pariatur
+          consequuntur natus porro, illo est voluptatem consequatur, at recusandae commodi perspiciatis a quibusdam
+          accusamus deleniti facere assumenda. Nulla, iste?</p>
+      </div>
+    </div>
+  </div>
+  <!--Second (Grey) Section-->
+  <div class="container-fluid bg-light grayContainer">
+    <h3 class="text-center headH3">Cards <strong>inside</strong> .col</h3>
+    <div class="row card-deck">
+      <div class="col-sm-4 offset-2">
+        <div class="card cardLeft">
+          <h3 text-center>Three</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi libero, officiis
+            accusantium labore rem? Nemo eaque corporis iusto, incidunt vero fugiat optio voluptatum aperiam veritatis
+            accusantium similique consequatur tempora.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card cardRight">
+          <h3 class="text-center">Four</h3>
+          <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos maxime,
+            incidunt culpa laboriosam dolore dolor quo quaerat delectus saepe, corporis eveniet ipsam sed impedit
+            pariatur! Eveniet quidem adipisci doloribus perspiciatis?</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
